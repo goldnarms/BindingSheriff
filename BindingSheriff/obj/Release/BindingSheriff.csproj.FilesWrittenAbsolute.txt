@@ -1,0 +1,5 @@
+/Users/arnsteinjohansen/Documents/github/BindingSheriff/BindingSheriff/obj/Release/Xamarin.iOS,Version=v1.0.AssemblyAttribute.cs
+/Users/arnsteinjohansen/Documents/github/BindingSheriff/BindingSheriff/bin/Release/BindingSheriff.dll.mdb
+/Users/arnsteinjohansen/Documents/github/BindingSheriff/BindingSheriff/bin/Release/BindingSheriff.dll
+/Users/arnsteinjohansen/Documents/github/BindingSheriff/BindingSheriff/obj/Release/BindingSheriff.dll
+/Users/arnsteinjohansen/Documents/github/BindingSheriff/BindingSheriff/obj/Release/BindingSheriff.dll.mdb
