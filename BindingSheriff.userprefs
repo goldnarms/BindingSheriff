@@ -1,17 +1,17 @@
 ﻿<Properties StartupItem="BindingSheriff/BindingSheriff.csproj">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="BindingSheriff/ApiDefinition.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="BindingSheriff/libSheriff.linkwith.cs">
     <Files>
-      <File FileName="BindingSheriff/ApiDefinition.cs" Line="51" Column="11" />
+      <File FileName="BindingSheriff/ApiDefinition.cs" Line="20" Column="1" />
       <File FileName="BindingSheriff/StructsAndEnums.cs" Line="3" Column="18" />
-      <File FileName="../../../../../Library/Frameworks/Xamarin.iOS.framework/Versions/9.6.1.9/lib/mono/2.1/Xamarin.iOS.ObjCBinding.CSharp.targets" Line="1" Column="1" />
-      <File FileName="BindingSheriff/libSheriff.linkwith.cs" Line="1" Column="1" />
       <File FileName="BindingSheriff/libSheriff-armv7.linkwith.cs" Line="1" Column="1" />
       <File FileName="BindingSheriff/libSheriff-i386.linkwith.cs" Line="1" Column="1" />
+      <File FileName="BindingSheriff/libSheriff.linkwith.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.BindingSheriff PreferredExecutionTarget="MonoDevelop.Default" />
 </Properties>
