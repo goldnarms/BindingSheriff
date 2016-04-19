@@ -19,6 +19,7 @@ using MapKit;
 using ModelIO;
 using Security;
 using SceneKit;
+using AudioUnit;
 using CoreVideo;
 using CoreMedia;
 using QuickLook;

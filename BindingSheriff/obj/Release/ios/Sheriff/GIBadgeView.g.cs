@@ -19,6 +19,7 @@ using MapKit;
 using ModelIO;
 using Security;
 using SceneKit;
+using AudioUnit;
 using CoreVideo;
 using CoreMedia;
 using QuickLook;
@@ -128,8 +129,6 @@ namespace Sheriff {
 		}
 		
 		[CompilerGenerated]
-		object __mt_Font_var;
-		[CompilerGenerated]
 		public virtual global::UIKit.UIFont Font {
 			[Export ("font", ArgumentSemantic.Retain)]
 			get {
@@ -139,8 +138,6 @@ namespace Sheriff {
 				} else {
 					ret =  Runtime.GetNSObject<global::UIKit.UIFont> (global::ApiDefinition.Messaging.IntPtr_objc_msgSendSuper (this.SuperHandle, Selector.GetHandle ("font")));
 				}
-				if (!IsNewRefcountEnabled ())
-					__mt_Font_var = ret;
 				return ret;
 			}
 			
@@ -153,8 +150,6 @@ namespace Sheriff {
 				} else {
 					global::ApiDefinition.Messaging.void_objc_msgSendSuper_IntPtr (this.SuperHandle, Selector.GetHandle ("setFont:"), value.Handle);
 				}
-				if (!IsNewRefcountEnabled ())
-					__mt_Font_var = value;
 			}
 		}
 		
@@ -180,8 +175,6 @@ namespace Sheriff {
 		}
 		
 		[CompilerGenerated]
-		object __mt_TextColor_var;
-		[CompilerGenerated]
 		public virtual global::UIKit.UIColor TextColor {
 			[Export ("textColor", ArgumentSemantic.Retain)]
 			get {
@@ -191,8 +184,6 @@ namespace Sheriff {
 				} else {
 					ret =  Runtime.GetNSObject<global::UIKit.UIColor> (global::ApiDefinition.Messaging.IntPtr_objc_msgSendSuper (this.SuperHandle, Selector.GetHandle ("textColor")));
 				}
-				if (!IsNewRefcountEnabled ())
-					__mt_TextColor_var = ret;
 				return ret;
 			}
 			
@@ -205,8 +196,6 @@ namespace Sheriff {
 				} else {
 					global::ApiDefinition.Messaging.void_objc_msgSendSuper_IntPtr (this.SuperHandle, Selector.GetHandle ("setTextColor:"), value.Handle);
 				}
-				if (!IsNewRefcountEnabled ())
-					__mt_TextColor_var = value;
 			}
 		}
 		
@@ -231,15 +220,6 @@ namespace Sheriff {
 			}
 		}
 		
-		[CompilerGenerated]
-		protected override void Dispose (bool disposing)
-		{
-			base.Dispose (disposing);
-			if (Handle == IntPtr.Zero) {
-				__mt_Font_var = null;
-				__mt_TextColor_var = null;
-			}
-		}
 		public partial class GIBadgeViewAppearance : global::UIKit.UIView.UIViewAppearance {
 			protected internal GIBadgeViewAppearance (IntPtr handle) : base (handle) {}
 		}

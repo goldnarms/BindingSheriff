@@ -42,6 +42,10 @@
     <Compile Include="libSheriff.linkwith.cs">
       <DependentUpon>libSheriff.a</DependentUpon>
     </Compile>
+    <Compile Include="libSheriff-i386.linkwith.cs" />
+    <Compile Include="libSheriff-armv7.linkwith.cs">
+      <DependentUpon>libSheriff-armv7.a</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <ObjcBindingCoreSource Include="StructsAndEnums.cs" />
@@ -52,5 +56,7 @@
   </ItemGroup>
   <ItemGroup>
     <ObjcBindingNativeLibrary Include="libSheriff.a" />
+    <ObjcBindingNativeLibrary Include="libSheriff-armv7.a" />
+    <ObjcBindingNativeLibrary Include="libSheriff-i386.a" />
   </ItemGroup>
 </Project>
