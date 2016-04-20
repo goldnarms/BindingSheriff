@@ -1,9 +1,8 @@
 ﻿<Properties StartupItem="BindingSheriff/BindingSheriff.csproj">
-  <MonoDevelop.Ide.Workbench ActiveDocument="BindingSheriff/libSheriff.linkwith.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="BindingSheriff/ApiDefinition.cs">
     <Files>
       <File FileName="BindingSheriff/ApiDefinition.cs" Line="20" Column="1" />
       <File FileName="BindingSheriff/StructsAndEnums.cs" Line="3" Column="18" />
-      <File FileName="BindingSheriff/libSheriff.linkwith.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />

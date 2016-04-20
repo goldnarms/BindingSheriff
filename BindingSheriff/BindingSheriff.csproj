@@ -39,8 +39,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="libSheriff.linkwith.cs">
-      <DependentUpon>libSheriff.a</DependentUpon>
+    <Compile Include="libSheriffUniversal.linkwith.cs">
+      <DependentUpon>libSheriffUniversal.a</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -51,6 +51,6 @@
     <ObjcBindingApiDefinition Include="ApiDefinition.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ObjcBindingNativeLibrary Include="libSheriff.a" />
+    <ObjcBindingNativeLibrary Include="libSheriffUniversal.a" />
   </ItemGroup>
 </Project>
